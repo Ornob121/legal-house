@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Legal Solutions</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/b6fcd926d4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Manrope&family=Poppins:wght@500&family=Work+Sans&display=swap');
 
@@ -28,7 +28,7 @@
         <!-- this is the navigation section -->
         <nav>
           <div class="md:flex items-center justify-between my-12">
-            <div class="ml-3 md:ml-0 flex items-center gap-x-4">
+            <div class=" relative bottom-3 md:sticky ml-3 md:ml-0 flex items-center gap-x-4">
               <img class="h-11 w-11" src="images/Group 10.png" alt="">
               <h3 class="font-extrabold text-4xl">Justice</h3>
           </div>
@@ -39,18 +39,91 @@
             <a href="">Blog <i class="fa-solid fa-chevron-right"></i></a>
             <p>Contact US <i class="fa-solid fa-chevron-right"></i></p>
           </div>
-          <button class=" relative -top-36 left-56 md:sticky bg-[#B68C5A] text-white py-4 text-sm rounded-2xl px-7 ">Free Consultation</button>
+          <button class="w-42 md:w-56 relative -top-36 left-56 md:sticky bg-[#B68C5A] text-white py-3 text-sm rounded-2xl px-7 ">Free Consultation</button>
           </div>
         </nav>
-        <div class="text-center banner">
+        <div class="text-center banner mb-28">
           <h1 class=" pt-28 text-7xl font-extrabold text-white">We Provide Effective <br> Legal Solutions</h1>
           <p class="pt-6 pb-8 text-[#E7E7E7] ">If you think that you are facing some problems that you need to <br> solve with our help. Just contact us.We are here.</p>
-          <div class=" md:flex justify-center gap-x-4 pb-24">
-            <input type="search" name="search" id="search" placeholder="Search your services" class="py-4 pl-5 pr-20 md:pr-80 mx-6 md:mx-0 text-[#A0A0A0] rounded-lg">
-            <button class="mt-4 md:mt-0 bg-[#B68C5A] text-white py-4 rounded-lg px-10 ">Search</button>
+          <div class="md:flex justify-center items-center gap-x-4 pb-24">
+            <input type="search" name="search" id="search" placeholder="Search your services" class="h-3/4 py-3 pl-5 pr-20 md:pr-80 mx-6 mt-4 md:mx-0 text-[#A0A0A0] rounded-lg">
+            <button class="mt-4 bg-[#B68C5A] text-white py-3 rounded-lg px-10 ">Search</button>
           </div>
         </div>
     </header>
+
+    <!-- this is the main section -->
+    <main>
+      <section>
+          <div class="text-center mb-16">
+            <h2 class="text-4xl font-extrabold pb-4">The Legal Practice Area</h2>
+            <p class="text[#707070] ">If you visit this area you will know that about what kind of legal job <br> we take from our clients.</p>
+          </div>
+          <!---------------------------------------------- this is the main section first part ----------------------------------------------------------------------------------->
+          <div class="grid grid-col-1 mb-44 md:grid md:grid-cols-3">
+            <div class="flex flex-col items-center border-b border-r border[#E7E7E7]">
+              <img src="images/Group 10.png" alt="" class="pb-8 pt-20">
+              <div class="flex flex-col items-center pb-16">
+                <div class="text-center">
+                  <h2 class="text-3xl font-extrabold pb-6">Business Law</h2>
+                  <p class="pb-8 text-[#707070] px-16">If you are facing problems related to your business that you need to solve legally.We will be happy to solve that problem legally for you.</p>
+                </div>
+                <img src="images/Frame.png" alt="">
+              </div>
+            </div>
+            <div class="flex flex-col items-center border-b border-r border[#E7E7E7] bg-gradient-to-t from-[#FFFFFF] to-[#F3F3F3]">
+              <img src="images/Group 15.png" alt="" class="pb-8 pt-20">
+              <div class="flex flex-col items-center pb-16">
+                <div class="text-center">
+                  <h2 class="text-3xl font-extrabold pb-6">Criminal Law</h2>
+                  <p class="pb-8 text-[#707070] px-16">If you have a case regarding a criminal.That you need justice legally.We are here to solve your problem legally.</p>
+                </div>
+                <img src="images/Frame.png" alt="">
+              </div>
+            </div>
+            <div class="flex flex-col items-center border-b border[#E7E7E7]">
+              <img src="images/layer1.png" alt=""class="pb-8 pt-20">
+              <div class="flex flex-col items-center pb-16">
+                <div class="text-center">
+                  <h2 class="text-3xl font-extrabold pb-6">Child Support</h2>
+                  <p class="pb-8 px-16 text-[#707070]">If you are single Mother or Father and you are facing problems to raise your child financially and you need help. We are happy to fight case for your child's future.</p>
+                </div>
+                <img src="images/Frame.png" alt="">
+              </div>
+            </div>
+            <div class="flex flex-col items-center border-r border[#E7E7E7]">
+              <img src="images/Group 12.png" alt="" class="pb-8 pt-20">
+              <div class="flex flex-col items-center pb-16">
+                <div class="text-center">
+                  <h2 class="text-3xl font-extrabold pb-6">Education Law</h2>
+                  <p class="pb-8 px-16 text-[#707070]">If you think that you are being deprived from your right of Education and you need some legal help.We are here to help you legally fight for you.</p>
+                </div>
+                <img src="images/Frame.png" alt="">
+              </div>
+            </div>
+            <div class="flex flex-col items-center border-r border[#E7E7E7]">
+              <img src="images/Group 16.png" alt="" class="pb-8 pt-20">
+              <div class="flex flex-col items-center pb-16">
+                <div class="text-center">
+                  <h2 class="text-3xl font-extrabold pb-6">Divorce Law</h2>
+                  <p class="pb-8 px-16 text-[#707070]">If you are not happy with your married partner and you want to live a separate life from your partner. We will be the perfect choice for you to get separated from your partner.</p>
+                </div>
+                <img src="images/Frame.png" alt="">
+              </div>
+            </div>
+            <div class="flex flex-col items-center border[#E7E7E7]">
+              <img src="images/Group 13.png" alt="" class="pb-8 pt-20">
+              <div class="flex flex-col items-center pb-16">
+                <div class="text-center">
+                  <h2 class="text-3xl font-extrabold pb-6">Tax Law</h2>
+                  <p class="pb-8 px-16 text-[#707070]">If you are facing problems regarding your tax with the Government that you need to solve legally. We are happy to fight for you.</p>
+                </div>
+                <img src="images/Frame.png" alt="">
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
 
 
 
